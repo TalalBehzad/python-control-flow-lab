@@ -188,8 +188,6 @@ def determine_season():
     month = input('Enter the month of the year (Jan - Dec): ').capitalize()
     day = int(input('Enter the day of the month: '))
     current_season = ''
-
-    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
  
     if (month == 'Dec' and day >= 21) or (month in ['Jan', 'Feb']) or (month == 'Mar' and day <=19):
       current_season = 'Winter'
